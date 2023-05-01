@@ -1,0 +1,17 @@
+install.packages("eeptools")
+library(eeptools)
+
+# Vetor com nome dos indivíduos
+nomes <- c("João", "José", "Mariana", "Fernanda")
+
+# Vetor com idades
+idade <- c(18, 22, 26, 30)
+
+# Vetor com salários
+salarios <- c(1300, 2600, 3000, 4300)
+
+lista_de_funcionários <- data.frame(
+  Funcionario = nomes, 
+  Idade = idade, 
+  Salario = salarios
+  )
